@@ -40,12 +40,12 @@ class Diary {
   }
 }
 
-// Создание объектов
+
 let student = new Student('Alice', 5);
 let math = new Subject('Math');
 let diary = new Diary(student);
 
-// Вызов методов
+
 student.introduce();           
 math.addAssignment('Algebra'); 
 diary.addSubject(math);        
